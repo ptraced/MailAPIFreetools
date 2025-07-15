@@ -32,7 +32,7 @@ public class TempMailClient : IDisposable
         _apiKey = apiKey;
         _httpClient = httpClient ?? new HttpClient();
         _httpClient.BaseAddress = new Uri(BaseUrl);
-        _httpClient.DefaultRequestHeaders.Add("X-API-Key", _apiKey);
+        _httpClient.DefaultRequestHeaders.Add("MailAPI-Key", _apiKey);
         _httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
         _jsonOptions = new JsonSerializerOptions
