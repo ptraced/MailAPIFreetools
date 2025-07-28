@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>MailAPIFreetools</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.3</PackageVersion>
     <Title>MailAPI Freetools - Temporary Email API Client</Title>
     <Description>A .NET 8 client library for the MailAPI Freetools temporary email service (https://mailapi.freetools.fr). Generate temporary email addresses and read emails programmatically.</Description>
     <Authors>MailAPI Freetools</Authors>
@@ -17,6 +17,7 @@
     <RepositoryType>git</RepositoryType>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
